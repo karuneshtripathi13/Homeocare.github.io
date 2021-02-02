@@ -6,7 +6,7 @@
     <title>Homeopathic Web site by Karunesh Tripathi</title>
     <link rel="stylesheet" href="./desktop.css">
     <link rel="stylesheet" media="screen and (max-width: 800px)" href="./phone.css">
-    
+    <script src="./slideshow.js"></script>
 </head>
 <body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,22 +99,6 @@
         Designed & developed by Karunesh Tripathi &#169; Kt
         
     </div>
-    <script>
-
-        var slideIndex = 0;
-        showSlides();
-    
-        function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        slides[slideIndex-1].style.display = "block";
-        setTimeout(showSlides, 4000); // Change image every 4 seconds
-        }
-    </script>
+    <script src="./slideshow.js"></script>
 </body>
 </html>
