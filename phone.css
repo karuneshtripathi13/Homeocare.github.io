@@ -89,7 +89,8 @@ body{
 #symbol{
     border:5px solid;
     border-color: black;
-    width: 15vw;
+    width: 18vw;
+    height: 30vw;
     margin-bottom: 4%;
 }
 .images{
