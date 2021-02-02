@@ -4,7 +4,7 @@ body{
 .title{
     position: sticky;
     top:0px;
-    background-color: rgb(68, 68, 236);
+    background-color:navy;
     color: white;
     font-size: larger;
     text-decoration: none;
@@ -89,7 +89,7 @@ body{
 #symbol{
     border:5px solid;
     border-color: black;
-    width: 25vw;
+    width: 20vw;
     margin-bottom: 4%;
 }
 .images{
