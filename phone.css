@@ -8,20 +8,31 @@ body{
     color: white;
     font-size: larger;
     text-decoration: none;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-bottom: 2%;
+    padding-left: 0;
 }
 #home{
+    padding-left: 5%;
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
     font-size: 6vw;
     transition-property: background-color padding-right;
     transition-duration: 0.5s;
 }
+#home:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration:underline rgb(43, 25, 25);
+    padding-right: 3%;
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
+    background-color: lightskyblue ;
+}
 .symb{
     font-size: 6vw;
     background-color: black;
-    padding: 0.75%;
     border: 0.3vw solid white;
+    width: 12vw;
+    height: 12vw;
 }
 #stn{
     background-color: white;
