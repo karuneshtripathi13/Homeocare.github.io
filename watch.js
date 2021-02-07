@@ -28,7 +28,7 @@ var weekday = new Array(7);
 setInterval(() => {
     dt=document.getElementById("date")
     date=new Date()
-    dt.innerHTML='Date: &nbsp;&nbsp;'+change(date.getDate())+"/"+change(date.getMonth())+"/"+date.getFullYear()
+    dt.innerHTML='Date: &nbsp;&nbsp;'+change(date.getDate())+"/"+change(date.getMonth()+1)+"/"+date.getFullYear()
     dy=document.getElementById("day")
     dy.innerHTML='Day:&nbsp;&nbsp;'+weekday[date.getDay(2)]
 }, 1000);
